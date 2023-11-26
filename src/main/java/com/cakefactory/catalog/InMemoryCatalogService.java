@@ -12,7 +12,9 @@ public class InMemoryCatalogService implements CatalogService {
         return Arrays.asList(
                 new Item("Test item 1", BigDecimal.valueOf(1.95)),
                 new Item("Test item 2", BigDecimal.valueOf(4.99)),
-                new Item("Test item 3", BigDecimal.valueOf(3.95))
+                new Item("Test item 3", BigDecimal.valueOf(3.95)),
+                new Item("Test item 4", BigDecimal.valueOf(5.95)),
+                new Item("Test item 5", BigDecimal.valueOf(7.95))
         );
     }
 }
